@@ -77,17 +77,47 @@ footer ul a {
 .container {
   padding: 0 20%;
   display: grid;
+  font-size: 18px;
+}
 
+.featuresContainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 #features {
   display: grid;
+  row-gap: 60px;
   background-color: pink;
+ 
+  max-width: 1000px;
 }
-/* 
-.grid {
 
-} */
+
+
+.grid {
+  border: 3px solid white;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  color: darkorange;
+  /* background-color: aliceblue; */
+}
+
+.desc {
+  background-color: blanchedalmond;
+}
+.desc p,
+.desc h2 {
+  margin: 0;
+}
 
 #pricing {
   display: flex;
@@ -106,3 +136,13 @@ footer ul {
   margin: 20px 10px;
 }
 
+.videoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  background-color: white;
+  width: 650px;
+  height: 350px;
+}

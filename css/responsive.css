@@ -1,8 +1,17 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1050px) {
+  .container {
+    padding: 0 25px;
+
+  }
   #header-img {
     height: 30px;
   }
   nav ul {
     width: 300px;
   }
+  #features {
+   width: 90vw;
+   
+  }
+
 }
