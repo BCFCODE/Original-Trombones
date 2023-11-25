@@ -1,5 +1,5 @@
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   margin: 0;
 }
@@ -12,7 +12,7 @@ body{
   justify-content: space-between;
   align-items: center;
   align-self: center;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,8 +37,7 @@ nav ul {
   width: 30vw;
 }
 
-
-nav ul a, 
+nav ul a,
 footer ul a {
   color: black;
   font-size: 17px;
@@ -72,8 +71,22 @@ footer ul a {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 16px;
+  background: rgba(255, 255, 255, 0.48);
+  border-radius: 3px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 10px;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn:active {
+  background: rgba(255, 255, 255, 0.5);
+}
 .container {
   padding: 0 20%;
   display: grid;
@@ -81,7 +94,7 @@ footer ul a {
 }
 
 .featuresContainer {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -91,11 +104,9 @@ footer ul a {
   display: grid;
   row-gap: 60px;
   background-color: pink;
- 
+
   max-width: 1000px;
 }
-
-
 
 .grid {
   border: 3px solid white;
@@ -127,7 +138,6 @@ footer {
   background-color: yellowgreen;
   display: flex;
   justify-content: flex-end;
- 
 }
 
 footer ul {
@@ -139,10 +149,75 @@ footer ul {
 .videoContainer {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 #video {
   background-color: white;
   width: 650px;
   height: 350px;
+  border-radius: 2px;
+}
+
+.pricingContainer {
+  font-display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product {
+  border: 2px solid black;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ol {
+  /* background-color: white; */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.level {
+  background: rgba(255, 255, 255, 0.27);
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 23px;
+  border-radius: 16px 16px 0 0;
+}
+
+footer {
+  height: 100px;
+  margin-top: 30px;
+  background: rgba(228, 209, 209, 0.37);
+  border-radius: 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(228, 209, 209, 0.78);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  background-color: white;
 }
