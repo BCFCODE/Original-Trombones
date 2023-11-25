@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+**/node_modules/
+**/bower_components/
+
+# Distribution directory
+dist/
+build/
+
+# Logs and databases
+*.log
+*.sqlite
+*.log.*
+*.db
+
+# Environment variables
+.env
+
+# Compiled source
+*.min.js
+*.min.css
+
+# Dependency files
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# WebStorm
+.idea/
+*.iml
+*.iws
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+
+# Jest coverage
+coverage/
+
+# End of file
