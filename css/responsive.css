@@ -1,7 +1,8 @@
-@media screen and (max-width: 1050px) {
+@import url('./animations.css');
+
+@media screen and (max-width: 1280px) {
   .container {
     padding: 0 25px;
-
   }
   #header-img {
     height: 30px;
@@ -10,7 +11,24 @@
     width: 300px;
   }
   #features {
-   width: 90vw;
-   
+    width: 90vw;
   }
+
+  .pricingContainer {
+    font-display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  #hero h2 {
+    animation: h2ChangeFontSizeAt1280px 5s ease-in-out forwards;
+  }  
 }
+
+@media screen and (max-width: 780px) {
+  #hero h2 {
+    animation: h2ChangeFontSizeAt780px 5s ease-in-out forwards;
+  }  
+}
+

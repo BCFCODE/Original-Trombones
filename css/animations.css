@@ -1,0 +1,18 @@
+@keyframes h2ChangeFontSizeAt1280px {
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+
+@keyframes h2ChangeFontSizeAt780px {
+  0% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 30px;
+  }
+}
+
