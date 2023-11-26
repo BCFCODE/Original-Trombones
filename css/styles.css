@@ -59,7 +59,7 @@ footer ul a {
   margin: 0 auto 20px auto;
 }
 
-#hero h2 {
+.headerSubject {
   margin: 50px;
   font-size: 60px;
   color: rgba(0, 0, 0, 0.884);
