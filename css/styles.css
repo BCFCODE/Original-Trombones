@@ -267,3 +267,13 @@ footer {
   justify-content: space-evenly;
   /* background-color: white; */
 }
+
+.copyrightLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+.copyrightLink:hover {
+  color: rgb(160, 49, 49);
+}
